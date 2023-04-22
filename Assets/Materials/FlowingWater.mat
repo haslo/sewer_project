@@ -39,11 +39,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 09130aabaa24545c2b09c84b2468ef28, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 0e5e1a7353aed41e3aaa76ed2273dd2e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7cb12816ca97e4fa8bdc43118428cb5d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RoughnessTex:
@@ -64,11 +64,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FlowSpeed: 0.1
+    - _AlbedoStrength: 0.3
+    - _FlowSpeed: 0.05
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RefractionStrength: 0
+    - _RefractionBrightness: 3
+    - _RefractionStrength: 0.1
     m_Colors:
     - _FlowDirection: {r: 0, g: 1, b: 0, a: 0}
-    - _TextureScale: {r: 5, g: 5, b: 0, a: 0}
+    - _TextureScale: {r: 5, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
