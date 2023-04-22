@@ -68,7 +68,7 @@ Material:
     - _FlowSpeed: 0.05
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RefractionBrightness: 3
+    - _RefractionBrightness: 4
     - _RefractionStrength: 0.1
     m_Colors:
     - _FlowDirection: {r: 0, g: 1, b: 0, a: 0}
