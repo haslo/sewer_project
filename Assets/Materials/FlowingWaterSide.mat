@@ -64,16 +64,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlbedoStrength: 0.3
+    - _AlbedoStrength: 1
     - _Cutoff: 3.83
     - _CutoffMax: 20
     - _CutoffMin: 3.5
     - _FlowSpeed: 0.05
     - _QueueControl: 1
     - _QueueOffset: 0
-    - _RefractionBrightness: 4
+    - _RefractionBrightness: 30
     - _RefractionStrength: 0.1
     m_Colors:
     - _FlowDirection: {r: 0, g: 1, b: 0, a: 0}
-    - _TextureScale: {r: 5, g: 2, b: 0, a: 0}
+    - _TextureScale: {r: 3, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
