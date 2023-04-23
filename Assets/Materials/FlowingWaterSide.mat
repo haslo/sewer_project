@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2755108245409785936
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,15 +20,15 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PoolWater
-  m_Shader: {fileID: -6465566751694194690, guid: 3db5e3b2528b745c6bb82bf446cb4b78,
+  m_Name: FlowingWaterSide
+  m_Shader: {fileID: -6465566751694194690, guid: 48a0cc9fb762c4f82b2daa537e74f520,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3050
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -51,43 +64,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlbedoStrength: 1
-    - _ColorDepth: 2.71
-    - _DisplacementHeight: 0.3
-    - _Distance: 3
-    - _FlowSpeed: 0.03
-    - _NoiseOffset: 3
-    - _QueueControl: 0
+    - _AlbedoStrength: 0.3
+    - _Cutoff: 3.83
+    - _CutoffMax: 20
+    - _CutoffMin: 3.5
+    - _FlowSpeed: 0.05
+    - _QueueControl: 1
     - _QueueOffset: 0
-    - _RefractionBrightness: 20
-    - _RefractionStrength: 0.06
-    - _RippleSpeed: 0.1
-    - _SteamBrightness: 3
-    - _SteamDepth: 2.2
-    - _SteamFalloff: 0.29
-    - _SteamSpeed: 1.3
-    - _WaveHeight: -0.2
+    - _RefractionBrightness: 4
+    - _RefractionStrength: 0.1
     m_Colors:
-    - _ColorDeep: {r: 0.07849767, g: 0.2641509, b: 0.08542528, a: 0.31764707}
-    - _ColorShallow: {r: 0.191, g: 0.17251614, b: 0.11090323, a: 0.87058824}
-    - _Deep: {r: 0.34117648, g: 0.13776433, b: 0.066666655, a: 0.5803922}
-    - _FlowDirection: {r: 0.1, g: 1, b: 0, a: 0}
-    - _RippleDirection: {r: 0, g: 1, b: 0, a: 0}
-    - _RippleScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Shallow: {r: 0.077858485, g: 0.262, b: 0.11271302, a: 0.6156863}
-    - _SteamDensity: {r: 7, g: 7, b: 0, a: 0}
-    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
+    - _FlowDirection: {r: 0, g: 1, b: 0, a: 0}
+    - _TextureScale: {r: 5, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &9143405216302167526
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 5
